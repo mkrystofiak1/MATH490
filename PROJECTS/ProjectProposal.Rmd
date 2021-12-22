@@ -1,0 +1,34 @@
+---
+title: "MATH490: Project Proposal"
+author: "Mitchell Krystofiak"
+date: "19 Novemeber 2021"
+output: word_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE)
+```
+
+### **Introduction**
+
+Tesla's mission is to accelerate the world's transition to sustainable energy. Founded in 2003, Tesla was built to prove that driving electric doesn't require sacrifice. The company wanted to show that these cars can be better, faster, more efficient, and more affordable than gasoline cars. Tesla also focuses its energy on producing clean energy power with products including solar panels. 
+
+The company really took off when the Roadster was released in 2008, showcasing a superior efficient battery design and electric powertrain. From here, Tesla and it's CEO, Elon Musk, have continued to release cutting edge electric vehicle designs, including the first ever all-electric sedan, the Model S. Tesla has continued to prove that they can produce all-electric vehicles while keeping up with safety protocols, reliability ratings, battery efficiency and affordability. Tesla also continues to manufacture unique energy solutions, such as the Powerwall, PowerPack and Solar Roof, which enables people to control their solar output and rely less on fossil fuels.
+
+
+### **Tesla Stock Information**
+
+On June 29, 2010, Tesla Motors launched its initial public offering on NASDAQ. 13,300,000 shares of common stock were issued to the public at a price of \$17.00 per share. As of November 17th, 2021, Tesla is now worth \$1089.01 per share with 1 Billion shares outstanding. The current 52 week high is \$1243.49 per share, and the 52 week low is \$443.50 per share.
+
+### **Project Proposal**
+
+One of the main reasons I enrolled for this course is to get a better understanding of the stock market. Walking into this project, I've gained a better understanding of linear algebra, a rough concept of how to rank sports teams on different statistics, and how to begin to look at stock data. Though some of the MAC methods confuse, I have seen the beginning of how to start looking at statistical stock data.
+
+*My proposed project aims to build an understanding of how to make gains in the stock market.* Everybody wants to make money in the stock market. I do too, and in general, most people, including me have seen little success with predicting trends. I will continue analyzing Tesla's historical stock data, and perhaps compare my analysis with another stock of my choosing (Maybe Amazon, Nvidia, etc.). **My outline is as follows:**
+
+1. Continue to use technical analysis. I would like to explore some of the other popular indicators, such as the Relative Strength Index (RSI), On-Balance Volume (OBV) and the Bottom Line.
+
+2. Explore other more instantaneous indicators, such as the Price-to-Earnings ratio, earnings per share, Price-to-Earnings ratio with company growth, and perhaps more.
+
+3. Try and combine the Markov Method for rating sports team to a few different stocks. In the sports data, we could use point differentials, winning percentages, total yards covered, etc. In stocks, we could consider a daily positive return a win and a daily negative return a loss! For example, if we have Tesla Stock, and they had positive returns 250/500 days, the winning percentage would be .5, or we could use the Colley method as well to improve this calculation. This is just one statistic, but we could also look at outstanding shares, stock price "Point differential" from beginning day (or a more recent time) to the current day (i.e. tesla share price is $1000 now, and it was 780 a month ago, so PD for a month is 1000-780 = 220), and so much more! 
+
+The goal of this project is to give me a basic understanding of what terminology in the stock market means, how to read telling signals, and make wiser purchases in the future. My overall goal with the stock market is to create an intelligent buying and selling program, capable of reading these signals and making smart moves for me so I do not have to commit myself to day trading. 
